@@ -1,0 +1,131 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCMTandberg", "PCMTandberg\PCMTandberg.csproj", "{F8AA3969-31B8-4C70-B155-96193E9E653B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{62D0A1AB-4020-49A8-B803-7E611613A3C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{03439E43-8283-4EED-9707-C8F31D1AE6EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "BusinessLayer\Logger\Logger.csproj", "{CE83F42C-1109-4F3F-9004-F4A5A1318FBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caching", "BusinessLayer\Caching\Caching.csproj", "{93083139-2AB8-41B3-8F4E-63AE78F87B47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccessLayer\DataAccess\DataAccess.csproj", "{D3A5BB06-2E07-4054-9F75-3EE736F42486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLayer\BusinessLogic\BusinessLogic.csproj", "{90CEBCC0-F5D0-46E1-8408-C9E98A3FD95E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessEntities", "BusinessLayer\BusinessEntities\BusinessEntities.csproj", "{F25F49CC-A7B2-424E-82C6-8F3A18346B73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProcessLayer", "ProcessLayer", "{AB16198E-4F06-4BAA-9D75-3C4AF346CC69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessMessage", "ProcessLayer\ProcessMessage.csproj", "{22DBDBF9-1546-4FF2-955E-806B8A1B3EDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{53240974-BC4E-430A-AD71-BB42F074D9F9}"
+EndProject
+Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "Cryptologger_Tandberg", "Cryptologger_Tandberg\Cryptologger_Tandberg.dbproj", "{E1000F65-35EF-497D-B28C-404B5E2D511C}"
+EndProject
+Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "mfgprod_Tandberg", "mfgprod_Tandberg\mfgprod_Tandberg.dbproj", "{E8D2EE0C-290E-4B97-9218-C650EABF2A4E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://teamsrv:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PCMTandberg\\PCMTandberg.csproj
+		SccProjectName1 = PCMTandberg
+		SccLocalPath1 = PCMTandberg
+		SccProjectUniqueName2 = BusinessLayer\\Logger\\Logger.csproj
+		SccProjectTopLevelParentUniqueName2 = PCMTandberg.sln
+		SccProjectName2 = BusinessLayer/Logger
+		SccLocalPath2 = BusinessLayer\\Logger
+		SccProjectUniqueName3 = BusinessLayer\\Caching\\Caching.csproj
+		SccProjectTopLevelParentUniqueName3 = PCMTandberg.sln
+		SccProjectName3 = BusinessLayer/Caching
+		SccLocalPath3 = BusinessLayer\\Caching
+		SccProjectUniqueName4 = DataAccessLayer\\DataAccess\\DataAccess.csproj
+		SccProjectTopLevelParentUniqueName4 = PCMTandberg.sln
+		SccProjectName4 = DataAccessLayer/DataAccess
+		SccLocalPath4 = DataAccessLayer\\DataAccess
+		SccProjectUniqueName5 = BusinessLayer\\BusinessLogic\\BusinessLogic.csproj
+		SccProjectTopLevelParentUniqueName5 = PCMTandberg.sln
+		SccProjectName5 = BusinessLayer/BusinessLogic
+		SccLocalPath5 = BusinessLayer\\BusinessLogic
+		SccProjectUniqueName6 = BusinessLayer\\BusinessEntities\\BusinessEntities.csproj
+		SccProjectTopLevelParentUniqueName6 = PCMTandberg.sln
+		SccProjectName6 = BusinessLayer/BusinessEntities
+		SccLocalPath6 = BusinessLayer\\BusinessEntities
+		SccProjectUniqueName7 = ProcessLayer\\ProcessMessage.csproj
+		SccProjectTopLevelParentUniqueName7 = PCMTandberg.sln
+		SccProjectName7 = ProcessLayer
+		SccLocalPath7 = ProcessLayer
+		SccProjectUniqueName8 = mfgprod_Tandberg\\mfgprod_Tandberg.dbproj
+		SccProjectTopLevelParentUniqueName8 = PCMTandberg.sln
+		SccProjectName8 = mfgprod_Tandberg
+		SccLocalPath8 = mfgprod_Tandberg
+		SccProjectUniqueName9 = Cryptologger_Tandberg\\Cryptologger_Tandberg.dbproj
+		SccProjectTopLevelParentUniqueName9 = PCMTandberg.sln
+		SccProjectName9 = Cryptologger_Tandberg
+		SccLocalPath9 = Cryptologger_Tandberg
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8AA3969-31B8-4C70-B155-96193E9E653B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8AA3969-31B8-4C70-B155-96193E9E653B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8AA3969-31B8-4C70-B155-96193E9E653B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8AA3969-31B8-4C70-B155-96193E9E653B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE83F42C-1109-4F3F-9004-F4A5A1318FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE83F42C-1109-4F3F-9004-F4A5A1318FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE83F42C-1109-4F3F-9004-F4A5A1318FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE83F42C-1109-4F3F-9004-F4A5A1318FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93083139-2AB8-41B3-8F4E-63AE78F87B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93083139-2AB8-41B3-8F4E-63AE78F87B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93083139-2AB8-41B3-8F4E-63AE78F87B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93083139-2AB8-41B3-8F4E-63AE78F87B47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A5BB06-2E07-4054-9F75-3EE736F42486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A5BB06-2E07-4054-9F75-3EE736F42486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A5BB06-2E07-4054-9F75-3EE736F42486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A5BB06-2E07-4054-9F75-3EE736F42486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CEBCC0-F5D0-46E1-8408-C9E98A3FD95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CEBCC0-F5D0-46E1-8408-C9E98A3FD95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CEBCC0-F5D0-46E1-8408-C9E98A3FD95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CEBCC0-F5D0-46E1-8408-C9E98A3FD95E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25F49CC-A7B2-424E-82C6-8F3A18346B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25F49CC-A7B2-424E-82C6-8F3A18346B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25F49CC-A7B2-424E-82C6-8F3A18346B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25F49CC-A7B2-424E-82C6-8F3A18346B73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22DBDBF9-1546-4FF2-955E-806B8A1B3EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22DBDBF9-1546-4FF2-955E-806B8A1B3EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22DBDBF9-1546-4FF2-955E-806B8A1B3EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22DBDBF9-1546-4FF2-955E-806B8A1B3EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1000F65-35EF-497D-B28C-404B5E2D511C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1000F65-35EF-497D-B28C-404B5E2D511C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1000F65-35EF-497D-B28C-404B5E2D511C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E1000F65-35EF-497D-B28C-404B5E2D511C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1000F65-35EF-497D-B28C-404B5E2D511C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1000F65-35EF-497D-B28C-404B5E2D511C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E8D2EE0C-290E-4B97-9218-C650EABF2A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8D2EE0C-290E-4B97-9218-C650EABF2A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8D2EE0C-290E-4B97-9218-C650EABF2A4E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E8D2EE0C-290E-4B97-9218-C650EABF2A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8D2EE0C-290E-4B97-9218-C650EABF2A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8D2EE0C-290E-4B97-9218-C650EABF2A4E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE83F42C-1109-4F3F-9004-F4A5A1318FBB} = {62D0A1AB-4020-49A8-B803-7E611613A3C9}
+		{93083139-2AB8-41B3-8F4E-63AE78F87B47} = {62D0A1AB-4020-49A8-B803-7E611613A3C9}
+		{90CEBCC0-F5D0-46E1-8408-C9E98A3FD95E} = {62D0A1AB-4020-49A8-B803-7E611613A3C9}
+		{F25F49CC-A7B2-424E-82C6-8F3A18346B73} = {62D0A1AB-4020-49A8-B803-7E611613A3C9}
+		{D3A5BB06-2E07-4054-9F75-3EE736F42486} = {03439E43-8283-4EED-9707-C8F31D1AE6EF}
+		{22DBDBF9-1546-4FF2-955E-806B8A1B3EDD} = {AB16198E-4F06-4BAA-9D75-3C4AF346CC69}
+		{E1000F65-35EF-497D-B28C-404B5E2D511C} = {53240974-BC4E-430A-AD71-BB42F074D9F9}
+		{E8D2EE0C-290E-4B97-9218-C650EABF2A4E} = {53240974-BC4E-430A-AD71-BB42F074D9F9}
+	EndGlobalSection
+EndGlobal
